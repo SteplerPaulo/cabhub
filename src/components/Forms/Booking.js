@@ -14,7 +14,7 @@ export default function Booking() {
 
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardHeader title="BOOK A CAB" style={{ backgroundColor: '#000000', color: '#ffffff' }} />
+      <CardHeader title="BOOK A CAB" sx={{ backgroundColor: '#000000', color: '#ffffff' }} />
 
       <CardContent >
         <Grid spacing={2} 
